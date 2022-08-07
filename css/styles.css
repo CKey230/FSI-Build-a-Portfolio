@@ -1,0 +1,125 @@
+/*background image */
+.div1 {background-color:rgb(151, 206, 206);
+    background-image: url("../images/morning.JPG");
+background-repeat: no-repeat;
+padding-top: 300px;
+padding bottom: 300px;
+background-size: cover;
+}
+
+
+/*header text color */
+.h1 {text-align: center;
+    color: whitesmoke
+}
+
+
+/*King border */
+.p1 {background-color: rgb(151, 206, 206);
+    text-align: center;
+    font-size:x-large;
+     border:60px solid transparent;
+    padding: 40px;
+    border-image: url(../images/kingfish.png) 160 round;
+    border-image-repeat: round;
+    color:whitesmoke
+ }
+
+
+/*text alignment and color */
+ .aboutme {text-align: center;
+color:rgb(0, 0, 0);
+font-size: x-large;
+border: 30px solid transparent;
+padding: 20px;
+border-image: url(../images/anchor.png) 100 space;
+border-image-repeat: space;
+color: whitesmoke
+
+;
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* three columns side by side */
+  .column1 {
+    float: left;
+    width: 16.66%;
+  }
+.column2 {float:right;
+width: 16.66%;
+}
+
+
+.column3 {display: block;
+margin: 0 auto;
+width: 16.66%;}
+
+/*columns and background image for about me */
+.row2 {
+    
+    column-gap:30px;
+    column-count: 3;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-image: url(../images/coding-portfolio2.jpeg);
+background-size: cover;
+}
+
+.img {width: 100%;
+height: auto;
+display: block;
+margin-bottom: 30px;
+padding: 10px;
+box-shadow: 0 0 15px whitesmoke;
+box-sizing: border-box;}
+
+.end {color: whitesmoke;
+    font-size: larger;
+    background-image: url(../images/bigsky.JPG);
+background-size:cover;
+}
+
+
+.img2 {width: auto;
+    height: auto;
+   display:block;
+    margin-bottom: auto;
+    padding: 10px;
+    box-shadow: 0 0 15px whitesmoke;
+    box-sizing: border-box;}
+
+    .img3 {width: auto;
+        height:auto;
+        display: block;      
+        margin-bottom: auto;
+        padding: 10px;
+        box-shadow: 0 0 15px whitesmoke;
+        box-sizing: border-box;}
+
+
+/* body text */
+body {background-color:rgb(151, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;}
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
